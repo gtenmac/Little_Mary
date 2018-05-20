@@ -167,9 +167,9 @@
             }
             currentbrick = Math.floor(Math.random() * img.length);
             steps = Math.floor(img.length * 3);
-            $('<audio id="Audio"><source src = "https://github.com/gtenmac/Little_Mary/blob/master/blip04.mp3"></audio>').appendTo('body');
-            $('<audio onended="startaudio()" id="CoinAudio"><source src = "https://github.com/gtenmac/Little_Mary/blob/master/coin.mp3"></audio>').appendTo('body');
-            $('<audio onended="forwardbrick()" id="StartAudio"><source src = "https://github.com/gtenmac/Little_Mary/blob/master/54321.mp3"></audio>').appendTo('body');
+            $('<audio id="Audio"><source src = "../blip04.mp3"></audio>').appendTo('body');
+            $('<audio onended="startaudio()" id="CoinAudio"><source src = "../coin.mp3"></audio>').appendTo('body');
+            $('<audio onended="forwardbrick()" id="StartAudio"><source src = "../54321.mp3"></audio>').appendTo('body');
         }
         function forwardbrick() {
             sound[0].pause();
