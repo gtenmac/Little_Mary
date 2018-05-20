@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Slot</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+
+    <style>
+        img {
+            border: white 5px solid;
+        }
+
+        .box {
+            text-align: center;
+            /* border: white 5px solid; */
+        }
+
+        .marker {
+            border: red 5px solid;
+            transition: all 0s;
+        }
+
+        .marker_active {
+            border: white 5px solid;
+            transition: all .3s;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid" style="margin-left: 4%;">
+        <div class="row">
+            <div class="col-sm-1 box">
+                <img id="i1" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i2" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i3" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i4" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i5" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i6" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i7" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i8" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i9" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i10" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box ">
+                <img id="i11" src="https://placehold.it/100x100" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 box">
+                <img id="i28" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="offset-9"></div>
+            <div class="col-sm-1 box">
+                <img id="i12" src="https://placehold.it/100x100" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 box">
+                <img id="i27" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="offset-9"></div>
+            <div class="col-sm-1 box">
+                <img id="i13" src="https://placehold.it/100x100" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 box">
+                <img id="i26" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="offset-9"></div>
+            <div class="col-sm-1 box">
+                <img id="i14" src="https://placehold.it/100x100" alt="">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-1 box">
+                <img id="i25" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i24" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i23" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i22" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i21" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i20" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i19" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i18" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i17" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i16" src="https://placehold.it/100x100" alt="">
+            </div>
+            <div class="col-sm-1 box">
+                <img id="i15" src="https://placehold.it/100x100" alt="">
+            </div>
+        </div>
+        <div class="row mt-2">
+            <button type="button" name="" id="" class="btn-lg btn-dark" btn-lg btn-block style="width: 50%; margin-left: 22%;">確定</button>
+        </div>
+    </div>
+    <!-- <div class="container">
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary">按我</button>
+            </div>
+        </div>
+    </div> -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script>
+        var bricks = [];
+        var img = document.getElementsByTagName("img");
+        var currentbrick = 0;
+        var steps = 0;
+        init();
+        var sound = $("#Audio");
+        var coin = $("#CoinAudio");
+        var start = $("#StartAudio");
+        function init() {
+            for (i = 1; i <= img.length; i++) {
+                var brick = document.getElementById("i" + i);
+                bricks.push(brick);
+            }
+            currentbrick = Math.floor(Math.random() * img.length);
+            steps = Math.floor(img.length * 3);
+            $('<audio id="Audio"><source src = "../blip04.mp3"></audio>').appendTo('body');
+            $('<audio onended="startaudio()" id="CoinAudio"><source src = "../coin.mp3"></audio>').appendTo('body');
+            $('<audio onended="forwardbrick()" id="StartAudio"><source src = "../54321.mp3"></audio>').appendTo('body');
+        }
+        function forwardbrick() {
+            sound[0].pause();
+            sound[0].currentTime = 0;
+            sound[0].play();
+            bricks[currentbrick].className = "marker_active";
+            currentbrick++;
+            if (currentbrick > bricks.length - 1) {
+                currentbrick = 0;
+            }
+            bricks[currentbrick].className = "marker";
+            if (--steps > 0) {
+                if (steps >= 80) {
+                    window.setTimeout(forwardbrick, 120);
+                } else if (steps < 80 && steps >= 60) {
+                    window.setTimeout(forwardbrick, 110);
+                } else if (steps < 60 && steps >= 50) {
+                    window.setTimeout(forwardbrick, 85);
+                } else if (steps < 50 && steps >= 30) {
+                    window.setTimeout(forwardbrick, 70);
+                } else if (steps < 30 && steps >= 10) {
+                    window.setTimeout(forwardbrick, 60);
+                }
+                else {
+                    window.setTimeout(forwardbrick, 150);
+                }
+            }
+        }
+        function getTanDeg(deg) {
+            var rad = deg * Math.PI / 180;
+            console.log(Math.tan(rad));
+            return Math.tan(rad);
+        }
+        function startaudio() {
+            start[0].play();
+        }
+        document.getElementsByTagName("button")[0].onclick = function () {
+            steps = Math.floor(img.length * 3);
+            coin[0].play();
+        }
+    </script>
+</body>
+
+</html>
